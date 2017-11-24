@@ -7,17 +7,51 @@
 //
 
 #import "ViewController.h"
+#import <MJRefresh.h>
 
+#define weakify(x) autoreleasepool{} __weak typeof(x) weak##x= x;
 @interface ViewController ()
+
+@property (nonatomic, strong) UITableView * tbv;
+
+@property (nonatomic, strong) NSTimer * timer;
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"测试";
+    
+    self.tbv = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+    
+    [self.view addSubview:self.tbv];
+    
+    self.tbv.backgroundColor = [UIColor whiteColor];
+
+    @weakify(self);
+    
+    self.tbv.mj_header = [MJRefreshStateHeader headerWithRefreshingBlock:^{
+        
+        [weakself stopRefresh];
+        
+    }];
+
+    [self.tbv.mj_header beginRefreshing];
+    
 }
+
+- (void)stopRefresh {
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        
+    }];
+    
+}
+
 
 
 - (void)didReceiveMemoryWarning {

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "UINavigationController+CutNavigationController.h"
+#import "BaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [[UINavigationBar appearance] setBarTintColor:[UIColor orangeColor]];
+    
+    NSLog(@"%@", [UIFont familyNames]);
+    
+    [[UITabBar appearance] setTintColor:[UIColor greenColor]];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSAttachmentAttributeName:[UIFont boldSystemFontOfSize:18], NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    
+    BaseTabBarController *tabBC = [[BaseTabBarController alloc] init];
+    
+    self.window.rootViewController = tabBC;
+    
     return YES;
 }
 

@@ -11,11 +11,14 @@
 		A523E0CD1FC7C38C00D6A7B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A523E0CC1FC7C38C00D6A7B2 /* AppDelegate.m */; };
 		A523E0D01FC7C38C00D6A7B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A523E0CF1FC7C38C00D6A7B2 /* ViewController.m */; };
 		A523E0D31FC7C38C00D6A7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A523E0D11FC7C38C00D6A7B2 /* Main.storyboard */; };
-		A523E0D51FC7C38C00D6A7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A523E0D41FC7C38C00D6A7B2 /* Assets.xcassets */; };
 		A523E0D81FC7C38C00D6A7B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A523E0D61FC7C38C00D6A7B2 /* LaunchScreen.storyboard */; };
 		A523E0DB1FC7C38C00D6A7B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A523E0DA1FC7C38C00D6A7B2 /* main.m */; };
 		A523E0E51FC7C38C00D6A7B2 /* iPhoneXDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A523E0E41FC7C38C00D6A7B2 /* iPhoneXDemoTests.m */; };
 		A523E0F01FC7C38C00D6A7B2 /* iPhoneXDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A523E0EF1FC7C38C00D6A7B2 /* iPhoneXDemoUITests.m */; };
+		A52880C21FC7F631007BE916 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52880C11FC7F631007BE916 /* BaseTabBarController.m */; };
+		A52880C41FC7FB2F007BE916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52880C31FC7FB2F007BE916 /* Assets.xcassets */; };
+		A54A12B71FC7E2A100A83FCF /* UINavigationController+CutNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54A12B61FC7E2A100A83FCF /* UINavigationController+CutNavigationController.m */; };
+		A54A12BA1FC7E3E500A83FCF /* CutNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54A12B91FC7E3E500A83FCF /* CutNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,6 @@
 		A523E0CE1FC7C38C00D6A7B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A523E0CF1FC7C38C00D6A7B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A523E0D21FC7C38C00D6A7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A523E0D41FC7C38C00D6A7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A523E0D71FC7C38C00D6A7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A523E0D91FC7C38C00D6A7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A523E0DA1FC7C38C00D6A7B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +55,13 @@
 		A523E0EB1FC7C38C00D6A7B2 /* iPhoneXDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneXDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A523E0EF1FC7C38C00D6A7B2 /* iPhoneXDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneXDemoUITests.m; sourceTree = "<group>"; };
 		A523E0F11FC7C38C00D6A7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52880C01FC7F631007BE916 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		A52880C11FC7F631007BE916 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		A52880C31FC7FB2F007BE916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54A12B51FC7E2A100A83FCF /* UINavigationController+CutNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CutNavigationController.h"; sourceTree = "<group>"; };
+		A54A12B61FC7E2A100A83FCF /* UINavigationController+CutNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+CutNavigationController.m"; sourceTree = "<group>"; };
+		A54A12B81FC7E3E500A83FCF /* CutNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutNavigationController.h; sourceTree = "<group>"; };
+		A54A12B91FC7E3E500A83FCF /* CutNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutNavigationController.m; sourceTree = "<group>"; };
 		BA786A7E47F54A8A4DC0301D /* Pods-iPhoneXDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPhoneXDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPhoneXDemo/Pods-iPhoneXDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E1086F3F535AA686B12D8DA5 /* libPods-iPhoneXDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPhoneXDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,12 +117,18 @@
 		A523E0CA1FC7C38C00D6A7B2 /* iPhoneXDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A52880C31FC7FB2F007BE916 /* Assets.xcassets */,
 				A523E0CB1FC7C38C00D6A7B2 /* AppDelegate.h */,
 				A523E0CC1FC7C38C00D6A7B2 /* AppDelegate.m */,
+				A54A12B81FC7E3E500A83FCF /* CutNavigationController.h */,
+				A54A12B91FC7E3E500A83FCF /* CutNavigationController.m */,
+				A52880C01FC7F631007BE916 /* BaseTabBarController.h */,
+				A52880C11FC7F631007BE916 /* BaseTabBarController.m */,
+				A54A12B51FC7E2A100A83FCF /* UINavigationController+CutNavigationController.h */,
+				A54A12B61FC7E2A100A83FCF /* UINavigationController+CutNavigationController.m */,
 				A523E0CE1FC7C38C00D6A7B2 /* ViewController.h */,
 				A523E0CF1FC7C38C00D6A7B2 /* ViewController.m */,
 				A523E0D11FC7C38C00D6A7B2 /* Main.storyboard */,
-				A523E0D41FC7C38C00D6A7B2 /* Assets.xcassets */,
 				A523E0D61FC7C38C00D6A7B2 /* LaunchScreen.storyboard */,
 				A523E0D91FC7C38C00D6A7B2 /* Info.plist */,
 				A523E0DA1FC7C38C00D6A7B2 /* main.m */,
@@ -266,7 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A523E0D81FC7C38C00D6A7B2 /* LaunchScreen.storyboard in Resources */,
-				A523E0D51FC7C38C00D6A7B2 /* Assets.xcassets in Resources */,
+				A52880C41FC7FB2F007BE916 /* Assets.xcassets in Resources */,
 				A523E0D31FC7C38C00D6A7B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,8 +355,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54A12BA1FC7E3E500A83FCF /* CutNavigationController.m in Sources */,
+				A54A12B71FC7E2A100A83FCF /* UINavigationController+CutNavigationController.m in Sources */,
 				A523E0D01FC7C38C00D6A7B2 /* ViewController.m in Sources */,
 				A523E0DB1FC7C38C00D6A7B2 /* main.m in Sources */,
+				A52880C21FC7F631007BE916 /* BaseTabBarController.m in Sources */,
 				A523E0CD1FC7C38C00D6A7B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
