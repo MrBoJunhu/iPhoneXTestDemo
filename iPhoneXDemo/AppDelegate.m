@@ -21,7 +21,7 @@
 
     [[UINavigationBar appearance] setBarTintColor:[UIColor orangeColor]];
     
-    NSLog(@"%@", [UIFont familyNames]);
+//    NSLog(@"%@", [UIFont familyNames]);
     
     [[UITabBar appearance] setTintColor:[UIColor greenColor]];
     
